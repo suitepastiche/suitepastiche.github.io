@@ -25,6 +25,12 @@ url: https://suitepastiche.github.io
 instagram_username: suitepastiche
 email: matt@suitepastiche.com
 
+header_pages:
+  - about.md
+  - tickets.md
+  - mixes.md
+  - gallery.md
+
 # Build settings
 theme: minima
 plugins:
