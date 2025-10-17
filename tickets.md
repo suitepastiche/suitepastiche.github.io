@@ -4,15 +4,15 @@ title: Tickets
 permalink: /tickets/
 ---
 
-**Our next party is 14 February 2026: Valentine’s Day, and the 56th anniversary of the original Loft party!**
+**Our next party is 14 February 2026.** 
 
-To be the first to know when they’re on sale, [join our mailing list](http://eepurl.com/iD0_9A).
+To get notified when tickets go on sale, [join our mailing list](http://eepurl.com/iD0_9A).
 
 ### Social expectations
 
-To keep the party as safe and special as possible, we only ask a few things of our guests:
+To keep the party as special as possible, we ask just a few things of our guests:
 
-* **Treat your fellow guests, staff, and the equipment with love, care, and respect.** Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, please let the venue staff or musical hosts know.
+* **Treat your fellow guests, staff, and the equipment with love, care, and respect.** Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, please let the venue staff know.
 
 * **Keep phones and loud conversations off the dance floor.** We want to keep it a sacred space to physically connect with your own and others’ bodies – and we’ve ensured plenty of other spaces for phones and chats.
 
