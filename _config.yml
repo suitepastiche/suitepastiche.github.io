@@ -20,7 +20,9 @@
 
 title: Suite Pastiche
 description: Melbourne's hi-fi dance party for the socially engaged and sonically curious.
-baseurl:
+
+# baseurl: '/Jekyll-portfolio' # the subpath of your site, e.g. /blog
+
 url: https://suitepastiche.github.io
 instagram_username: suitepastiche
 email: matt@suitepastiche.com
@@ -33,6 +35,7 @@ header_pages:
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
 
