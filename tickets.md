@@ -6,6 +6,8 @@ permalink: /tickets/
 
 Our next party is 14 February 2026. To get notified when tickets go on sale, [join our mailing list](http://eepurl.com/iD0_9A).
 
+<br>
+
 ### Social expectations
 
 To keep the party as special as possible, we ask just a few things of our guests:
