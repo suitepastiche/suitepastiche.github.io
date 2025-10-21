@@ -52,12 +52,33 @@
 
 // Style footer tagline
 .footer-tagline{
-	color: gray
+	color: #424242;
+	margin-bottom: 15px;
 }
 
 // Style social icons
 .social-icons .svg-icon {
-	width: 24px;
-	height: 24px;
+	fill: #424242
+}
+
+.social-icons a {
+	margin: 0 10px;
+}
+
+.social-icons a:hover .svg-icon {
 	fill: black
+}
+
+//
+// SET LINK STYLE
+//
+
+// Hover behaviour for all general link-style elements
+a:hover {
+	text-decoration: none;
+}
+
+//Pre-hover behaviour for body links
+.post-content a {
+	color: #007bff;
 }
