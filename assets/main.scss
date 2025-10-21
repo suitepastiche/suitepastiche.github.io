@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+@font-face {
+	font-family: 'Gaya Italic';
+
+	src: url('{{ "/assets/fonts/gaya-italic.otf" | relative_url }}') format('opentype');
+
+	font-weight: normal;
+
+	font-style: normal;
+	}
+
+
+	.site-title {
+	font-family: 'Gaya Italic';
+	}
