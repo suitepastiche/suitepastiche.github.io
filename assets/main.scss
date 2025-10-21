@@ -2,14 +2,12 @@
 # Only the main Sass file needs front matter (dashes are enough)
 ---
 
-// Import the Minima theme's stylesheet first
 @import "minima";
 
 //
 // DEFINE CUSTOM FONTS
 //
 
-// Gaya Regular
 @font-face {
 	font-family: 'Gaya Regular';
 
@@ -20,7 +18,6 @@
 	font-style: normal;
 }
 
-// Gaya Italic
 @font-face {
 	font-family: 'Gaya Italic';
 
@@ -35,7 +32,6 @@
 // CUSTOM FONTS
 //
 
-// Site title in main navigation
 .site-title {
 	font-family: 'Gaya Italic';
 }
@@ -44,7 +40,6 @@
 // NAV LINK STYLE
 //
 .page-link {
-	font-family: 'Gaya Regular';
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -53,12 +48,10 @@
 // BODY LINK STYLE
 //
 
-// Hover behaviour for all general link-style elements
 a:hover {
 	text-decoration: none;
 }
 
-//Pre-hover behaviour for body links
 .post-content a {
 	color: #007bff;
 }
@@ -67,20 +60,17 @@ a:hover {
 // FOOTER STYLE
 //
 
-// Centre-align footer
 .custom-footer {
 	text-align: center;
 	padding: 20px 0;
 }
 
-// Style footer tagline
 .footer-tagline{
 	font-family: 'Gaya Regular';
 	color: #424242;
 	margin-bottom: 15px;
 }
 
-// Style social icons
 .social-icons .svg-icon {
 	fill: #424242
 }
