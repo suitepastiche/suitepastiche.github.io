@@ -36,6 +36,11 @@ header_pages:
 # Build settings
 theme: minima
 
+# social_links:
+instagram_username: suitepastiche
+github_username: suitepastiche
+linkedin_username: boultonmatt
+
 plugins:
   - jekyll-feed
 

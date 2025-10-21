@@ -5,10 +5,8 @@
 // Import the Minima theme's stylesheet first
 @import "minima";
 
-// Then, add extra stuff to the stylesheet…
-
 //
-// CUSTOM FONTS
+// DEFINE CUSTOM FONTS
 //
 
 // Gaya Regular
@@ -42,12 +40,24 @@
 	font-family: 'Gaya Italic';
 }
 
-// Apply Gaya Regular to page titles
-.post-title {
-	font-family: 'Gaya Regular';	
+//
+// SET FOOTER STYLE
+//
+
+// Centre-align footer
+.custom-footer {
+	text-align: center;
+	padding: 20px 0;
 }
 
-// Apply Gaya Regular to page titles
-.footer-col-3 {
-	font-family: 'Gaya Regular';	
+// Style footer tagline
+.footer-tagline{
+	color: gray
+}
+
+// Style social icons
+.social-icons .svg-icon {
+	width: 24px;
+	height: 24px;
+	fill: black
 }
