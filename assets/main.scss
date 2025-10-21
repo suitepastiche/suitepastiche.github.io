@@ -1,9 +1,28 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter (dashes are enough)
 ---
 
+// Import the Minima theme's stylesheet first
 @import "minima";
 
+// Then, add extra stuff to the stylesheet…
+
+//
+// CUSTOM FONTS
+//
+
+// Gaya Regular
+@font-face {
+	font-family: 'Gaya Regular';
+
+	src: url('{{ "/assets/fonts/gaya-regular.otf" | relative_url }}') format('opentype');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+
+// Gaya Italic
 @font-face {
 	font-family: 'Gaya Italic';
 
@@ -12,9 +31,23 @@
 	font-weight: normal;
 
 	font-style: normal;
-	}
+}
 
+//
+// APPLY CUSTOM FONTS
+//
 
-	.site-title {
+// Apply Gaya Italic to site title
+.site-title {
 	font-family: 'Gaya Italic';
-	}
+}
+
+// Apply Gaya Regular to page titles
+.post-title {
+	font-family: 'Gaya Regular';	
+}
+
+// Apply Gaya Regular to page titles
+.footer-col-3 {
+	font-family: 'Gaya Regular';	
+}

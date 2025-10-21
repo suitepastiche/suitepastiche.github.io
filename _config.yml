@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Suite Pastiche
-description: Melbourne's hi-fi dance party for the socially engaged and sonically curious.
+description: Melbourne's hi-fi dance party for the socially engaged and sonically curious
 
 
 url: https://suitepastiche.github.io
 baseurl: ""
 instagram_username: suitepastiche
-email: matt@suitepastiche.com
+email: hello@suitepastiche.com
 
 header_pages:
   - about.md
