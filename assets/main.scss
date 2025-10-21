@@ -32,16 +32,39 @@
 }
 
 //
-// APPLY CUSTOM FONTS
+// CUSTOM FONTS
 //
 
-// Apply Gaya Italic to site title
+// Site title in main navigation
 .site-title {
 	font-family: 'Gaya Italic';
 }
 
 //
-// SET FOOTER STYLE
+// NAV LINK STYLE
+//
+.page-link {
+	font-family: 'Gaya Regular';
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+//
+// BODY LINK STYLE
+//
+
+// Hover behaviour for all general link-style elements
+a:hover {
+	text-decoration: none;
+}
+
+//Pre-hover behaviour for body links
+.post-content a {
+	color: #007bff;
+}
+
+//
+// FOOTER STYLE
 //
 
 // Centre-align footer
@@ -52,6 +75,7 @@
 
 // Style footer tagline
 .footer-tagline{
+	font-family: 'Gaya Regular';
 	color: #424242;
 	margin-bottom: 15px;
 }
@@ -67,18 +91,4 @@
 
 .social-icons a:hover .svg-icon {
 	fill: black
-}
-
-//
-// SET LINK STYLE
-//
-
-// Hover behaviour for all general link-style elements
-a:hover {
-	text-decoration: none;
-}
-
-//Pre-hover behaviour for body links
-.post-content a {
-	color: #007bff;
 }
