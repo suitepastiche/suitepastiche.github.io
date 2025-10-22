@@ -28,50 +28,87 @@
 }
 
 //
+// GLOBAL STYLE
+//
+
+body {
+	background-color: #df7d74;
+}
+
+//
 // CUSTOM FONTS
 //
 
-.site-title {
+.site-header .site-title {
 	font-family: 'Gaya Italic';
+	color: #eee;
+	letter-spacing: .1px;
+}
+.site-header .site-title:visited {
+	color: #eee;
 }
 
 //
 // NAV LINK STYLE
 //
-.page-link {
+.site-header .page-link {
 	padding-left: 10px;
 	padding-right: 10px;
+	color: #eee;
 }
 
 //
-// BODY LINK STYLE
+// BODY AND PAGE TEXT STYLE
 //
+
+.post-content {
+	color: #eee;
+}
+
+.post-title,
+.page-heading {
+	color: #eee
+}
 
 a:hover {
 	text-decoration: none;
 }
 
 .post-content a {
-	color: #007bff;
+	color: #0065d5;
+}
+
+//
+// HEADER STYLE
+//
+
+.site-header {
+	border-top: none;
+	border-bottom: none;
+	background-color: #d89286;
 }
 
 //
 // FOOTER STYLE
 //
 
-.custom-footer {
-	text-align: center;
+.site-footer {
+	border-top: none;
+	background-color: #d89286;
 	padding: 20px 0;
 }
 
+.custom-footer {
+	text-align: center;
+}
+
 .footer-tagline{
-	font-family: 'Gaya Regular';
-	color: #424242;
+	color: #eee;
 	margin-bottom: 15px;
 }
 
 .social-icons .svg-icon {
-	fill: #424242
+	fill: #eee;
 }
 
 .social-icons a {
@@ -79,5 +116,5 @@ a:hover {
 }
 
 .social-icons a:hover .svg-icon {
-	fill: black
+	fill: gray;
 }

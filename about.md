@@ -12,7 +12,7 @@ So, what started as intimate house parties in 2022 evolved into public parties i
 
 Since then, we’ve been lucky to build and refine a sound system – centred around four Klipschorn loudspeakers and Mark Levinson amplifiers – that we think provides some of the clearest, mellifluous, and life-affirming sound in Australia’s party scene.
 
-With the sound system as a vehicle, our musical hosts venture into waters wide, deep, and diverse; if something feels like the right slice of sonic energy for a given moment, it’ll get played. (For an explicit taste of our musical predilections, [listen back to previous parties](/mixes.md).
+With the sound system as a vehicle, our musical hosts venture into waters wide, deep, and diverse; if something feels like the right slice of sonic energy for a given moment, it’ll get played. (For an explicit taste of our musical predilections, [listen back to previous parties](/mixes.md).)
 
 But the sound system and the music are in service of the most important component of the party: people. From the helpers and venue staff who lovingly bring things to life, to the artists whose music is played, to the guests who fill the dance floor with palpable energy  without these people, there is no party.
 
