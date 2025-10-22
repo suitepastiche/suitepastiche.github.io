@@ -32,7 +32,7 @@
 //
 
 body {
-	background-color: #df7d74;
+	background-color: #6f283b;
 }
 
 //
@@ -41,11 +41,11 @@ body {
 
 .site-header .site-title {
 	font-family: 'Gaya Italic';
-	color: #eee;
+	color: #fff7e7;
 	letter-spacing: .1px;
 }
 .site-header .site-title:visited {
-	color: #eee;
+	color: #fff7e7;
 }
 
 //
@@ -54,7 +54,7 @@ body {
 .site-header .page-link {
 	padding-left: 10px;
 	padding-right: 10px;
-	color: #eee;
+	color: #fff7e7;
 }
 
 //
@@ -62,12 +62,12 @@ body {
 //
 
 .post-content {
-	color: #eee;
+	color: #fff7e7;
 }
 
 .post-title,
 .page-heading {
-	color: #eee
+	color: #fff7e7
 }
 
 a:hover {
@@ -85,7 +85,7 @@ a:hover {
 .site-header {
 	border-top: none;
 	border-bottom: none;
-	background-color: #d89286;
+	background-color: #8b5a63;
 }
 
 //
@@ -94,7 +94,7 @@ a:hover {
 
 .site-footer {
 	border-top: none;
-	background-color: #d89286;
+	background-color: #8b5a63;
 	padding: 20px 0;
 }
 
@@ -103,12 +103,13 @@ a:hover {
 }
 
 .footer-tagline{
-	color: #eee;
+	font-size: 12px;
+	color: #fff7e7;
 	margin-bottom: 15px;
 }
 
 .social-icons .svg-icon {
-	fill: #eee;
+	fill: #fff7e7;
 }
 
 .social-icons a {
