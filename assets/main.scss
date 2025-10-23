@@ -76,7 +76,6 @@ a:hover {
 		&:not(:last-child) {
       		margin-right: 40px;
     	}
-		
 
 		&:visited {
 			color: $color-text;
@@ -141,5 +140,39 @@ a:hover {
 		&:hover .svg-icon {
 			fill: $color-link-hover;
 		}
+	}
+}
+
+//
+// MOBILE MENU STYLE
+//
+
+
+@include media-query ($on-palm) {
+
+	.site-nav {
+		background-color: $color-background;
+		border: 1px solid $color-text;
+
+		ul {
+			padding-left: 0;
+		}
+
+		.page-link {
+			color: $color-text;
+			padding: 10px 10px;
+
+			&:hover {
+				color: $color-link-hover;
+			}
+
+			&:not(:last-child) {
+				margin-right: 0;
+			}
+		}
+	}	
+
+	.menu-icon > svg path {
+		fill: $color-text;
 	}
 }
