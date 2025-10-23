@@ -136,10 +136,12 @@ a:hover {
 	.svg-icon {
 		fill: $color-text;
 		transition: fill 0.3s ease;
+		width: 20px;
+		height: 20px;
 	}
 
 	a {
-		margin: 0 15px;
+		margin: 0 8px;
 
 		&:hover .svg-icon {
 			fill: $color-link-hover;
