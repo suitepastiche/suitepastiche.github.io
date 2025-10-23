@@ -6,7 +6,7 @@ permalink: /tickets/
 
 Our next party is 14 February 2026. 
 
-To get notified when tickets go on sale, <a href="http://eepurl.com/iD0_9A" target="_blank" rel="noopener noreferrer">join our mailing list.</a>
+To get notified when tickets go on sale, <a href="http://eepurl.com/iD0_9A" target="_blank" rel="noopener noreferrer">join our mailing list</a>.
 
 <br>
 

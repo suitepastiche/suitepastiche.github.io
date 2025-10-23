@@ -63,6 +63,10 @@ a:hover {
 		&:visited {
 			color: $color-text;
 		}
+
+		&:hover {
+			color: $color-link-hover;
+		}
 	}
 
 	.page-link {
@@ -72,6 +76,10 @@ a:hover {
 
 		&:visited {
 			color: $color-text;
+		}
+
+		&:hover {
+			color: $color-link-hover;
 		}
 	}
 }
@@ -84,7 +92,8 @@ a:hover {
 	color: $color-text;
 
 	a {
-		color: $color-link;
+		color: $color-text;
+		text-decoration: underline;
 
 		&:hover {
 			color: $color-link-hover;
