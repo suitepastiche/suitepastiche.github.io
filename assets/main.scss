@@ -70,10 +70,13 @@ a:hover {
 	}
 
 	.page-link {
-		padding-left: 10px;
-		padding-right: 10px;
 		color: $color-text;
-		font-weight: 500;
+		font-weight: 450;
+		
+		&:not(:last-child) {
+      		margin-right: 40px;
+    	}
+		
 
 		&:visited {
 			color: $color-text;
