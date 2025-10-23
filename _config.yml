@@ -30,16 +30,11 @@ email: hello@suitepastiche.com
 header_pages:
   - about.md
   - tickets.md
-  - mixes.md
+  - listen.md
   - gallery.md
 
 # Build settings
 theme: minima
-
-# social_links:
-instagram_username: suitepastiche
-github_username: suitepastiche
-linkedin_username: boultonmatt
 
 plugins:
   - jekyll-feed
