@@ -73,6 +73,7 @@ a:hover {
 		padding-left: 10px;
 		padding-right: 10px;
 		color: $color-text;
+		font-weight: 500;
 
 		&:visited {
 			color: $color-text;
@@ -122,6 +123,7 @@ a:hover {
 
 .footer-tagline{
 	color: $color-text;
+	font-size: 14px;
 	margin-bottom: 15px;
 }
 
