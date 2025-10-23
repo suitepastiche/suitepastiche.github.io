@@ -3,9 +3,7 @@
 
 @import "minima";
 
-//
-// VARIABLES
-//
+// Variables
 
 $color-background: #6f283b;
 $color-header-footer: #8b5a63;
@@ -16,9 +14,7 @@ $color-link-hover: #e3d0b7;
 $font-gaya-regular: 'Gaya Regular', sans-serif;
 $font-gaya-italic: 'Gaya Italic', sans-serif;
 
-//
-// DEFINE CUSTOM FONTS
-//
+// Custom fonts
 
 @font-face {
 	font-family: 'Gaya Regular';
@@ -34,9 +30,7 @@ $font-gaya-italic: 'Gaya Italic', sans-serif;
 	font-style: normal;
 }
 
-//
-// GLOBAL STYLE
-//
+// Global
 
 body {
 	background-color: $color-background;
@@ -46,9 +40,7 @@ a:hover {
 	text-decoration: none;
 }
 
-//
-// HEADER STYLE
-//
+// Header
 
 .site-header {
 	border-top: none;
@@ -89,9 +81,7 @@ a:hover {
 	}
 }
 
-//
-// BODY AND PAGE TEXT STYLE
-//
+// Body and page text
 
 .post-content {
 	color: $color-text;
@@ -112,9 +102,7 @@ a:hover {
 	color: $color-text;
 }
 
-//
-// FOOTER STYLE
-//
+// Footer
 
 .site-footer {
 	background-color: $color-header-footer;
@@ -149,9 +137,7 @@ a:hover {
 	}
 }
 
-//
-// MOBILE MENU STYLE
-//
+// Mobile menu
 
 @include media-query ($on-palm) {
 
