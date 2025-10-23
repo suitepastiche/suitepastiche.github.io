@@ -4,13 +4,13 @@ title: Tickets
 permalink: /tickets/
 ---
 
-Our next party is 14 February 2026. 
+Our next party is 14 February 2026 at Fringe Common Rooms.
 
 To get notified when tickets go on sale, <a href="http://eepurl.com/iD0_9A" target="_blank" rel="noopener noreferrer">join our mailing list</a>.
 
 <br>
 
-### Social expectations
+## Social expectations
 
 To keep the party as special as possible, we ask just a few things of our guests:
 
