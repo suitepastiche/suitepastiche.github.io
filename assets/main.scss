@@ -10,7 +10,7 @@
 $color-background: #6f283b;
 $color-header-footer: #8b5a63;
 $color-text: #eee;
-$color-link: blue;
+$color-link: #eee;
 $color-link-hover: #e3d0b7;
 
 $font-gaya-regular: 'Gaya Regular', sans-serif;
@@ -57,11 +57,11 @@ a:hover {
 
 	.site-title {
 		font-family: $font-gaya-italic;
-		color: $color-text;
+		color: $color-link;
 		letter-spacing: .1px;
 
 		&:visited {
-			color: $color-text;
+			color: $color-link;
 		}
 
 		&:hover {
@@ -70,7 +70,7 @@ a:hover {
 	}
 
 	.page-link {
-		color: $color-text;
+		color: $color-link;
 		font-weight: 450;
 		
 		&:not(:last-child) {
@@ -78,7 +78,7 @@ a:hover {
     	}
 
 		&:visited {
-			color: $color-text;
+			color: $color-link;
 		}
 
 		&:hover {
@@ -131,7 +131,7 @@ a:hover {
 
 .social-icons {
 	.svg-icon {
-		fill: $color-text
+		fill: $color-link
 	}
 
 	a {
@@ -147,7 +147,6 @@ a:hover {
 // MOBILE MENU STYLE
 //
 
-
 @include media-query ($on-palm) {
 
 	.site-nav {
@@ -159,7 +158,7 @@ a:hover {
 		}
 
 		.page-link {
-			color: $color-text;
+			color: $color-link;
 			padding: 10px 10px;
 
 			&:hover {
