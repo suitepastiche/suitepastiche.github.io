@@ -4,26 +4,33 @@
 @import "minima";
 
 //
+// VARIABLES
+//
+
+$color-background: #6f283b;
+$color-header-footer: #8b5a63;
+$color-text: #eee;
+$color-link: blue;
+$color-link-hover: gray;
+
+$font-gaya-regular: 'Gaya Regular', sans-serif;
+$font-gaya-italic: 'Gaya Italic', sans-serif;
+
+//
 // DEFINE CUSTOM FONTS
 //
 
 @font-face {
 	font-family: 'Gaya Regular';
-
 	src: url('{{ "/assets/fonts/gaya-regular.otf" | relative_url }}') format('opentype');
-
 	font-weight: normal;
-
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Gaya Italic';
-
 	src: url('{{ "/assets/fonts/gaya-italic.otf" | relative_url }}') format('opentype');
-
 	font-weight: normal;
-
 	font-style: normal;
 }
 
@@ -32,50 +39,11 @@
 //
 
 body {
-	background-color: #6f283b;
-}
-
-//
-// CUSTOM FONTS
-//
-
-.site-header .site-title {
-	font-family: 'Gaya Italic';
-	color: #fff7e7;
-	letter-spacing: .1px;
-}
-.site-header .site-title:visited {
-	color: #fff7e7;
-}
-
-//
-// NAV LINK STYLE
-//
-.site-header .page-link {
-	padding-left: 10px;
-	padding-right: 10px;
-	color: #fff7e7;
-}
-
-//
-// BODY AND PAGE TEXT STYLE
-//
-
-.post-content {
-	color: #fff7e7;
-}
-
-.post-title,
-.page-heading {
-	color: #fff7e7
+	background-color: $color-background;
 }
 
 a:hover {
 	text-decoration: none;
-}
-
-.post-content a {
-	color: #0065d5;
 }
 
 //
@@ -85,7 +53,48 @@ a:hover {
 .site-header {
 	border-top: none;
 	border-bottom: none;
-	background-color: #8b5a63;
+	background-color: $color-header-footer;
+
+	.site-title {
+		font-family: $font-gaya-italic;
+		color: $color-text;
+		letter-spacing: .1px;
+
+		&:visited {
+			color: $color-text;
+		}
+	}
+
+	.page-link {
+		padding-left: 10px;
+		padding-right: 10px;
+		color: $color-text;
+
+		&:visited {
+			color: $color-text;
+		}
+	}
+}
+
+//
+// BODY AND PAGE TEXT STYLE
+//
+
+.post-content {
+	color: $color-text;
+
+	a {
+		color: $color-link;
+
+		&:hover {
+			color: $color-link-hover;
+		}
+	}
+}
+
+.post-title,
+.page-heading {
+	color: $color-text
 }
 
 //
@@ -93,8 +102,8 @@ a:hover {
 //
 
 .site-footer {
+	background-color: $color-header-footer;
 	border-top: none;
-	background-color: #8b5a63;
 	padding: 20px 0;
 }
 
@@ -103,18 +112,20 @@ a:hover {
 }
 
 .footer-tagline{
-	color: #fff7e7;
+	color: $color-text;
 	margin-bottom: 15px;
 }
 
-.social-icons .svg-icon {
-	fill: #fff7e7;
-}
+.social-icons {
+	.svg-icon {
+		fill: $color-text
+	}
 
-.social-icons a {
-	margin: 0 15px;
-}
+	a {
+		margin: 0 15px;
 
-.social-icons a:hover .svg-icon {
-	fill: gray;
+		&:hover .svg-icon {
+			fill: $color-link-hover;
+		}
+	}
 }
