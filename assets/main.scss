@@ -59,6 +59,7 @@ a:hover {
 		font-family: $font-gaya-italic;
 		color: $color-link;
 		letter-spacing: .1px;
+		transition: color 0.3s ease;
 
 		&:visited {
 			color: $color-link;
@@ -72,13 +73,14 @@ a:hover {
 	.page-link {
 		color: $color-link;
 		font-weight: 450;
-		
+		transition: color 0.3s ease;
+
 		&:not(:last-child) {
-      		margin-right: 40px;
-    	}
+			margin-right: 40px;
+		}
 
 		&:visited {
-			color: $color-link;
+			color: $color-text;
 		}
 
 		&:hover {
@@ -95,8 +97,9 @@ a:hover {
 	color: $color-text;
 
 	a {
-		color: $color-text;
+		color: $color-link;
 		text-decoration: underline;
+		transition: color .3s ease;
 
 		&:hover {
 			color: $color-link-hover;
@@ -106,7 +109,7 @@ a:hover {
 
 .post-title,
 .page-heading {
-	color: $color-text
+	color: $color-text;
 }
 
 //
@@ -131,7 +134,8 @@ a:hover {
 
 .social-icons {
 	.svg-icon {
-		fill: $color-link
+		fill: $color-text;
+		transition: fill 0.3s ease;
 	}
 
 	a {
