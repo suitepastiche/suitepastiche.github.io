@@ -61,6 +61,7 @@ a:hover {
 		color: $color-link;
 		letter-spacing: .1px;
 		transition: color 0.3s ease;
+		font-size: 1.75rem;
 
 		&:visited {
 			color: $color-link;
@@ -73,8 +74,9 @@ a:hover {
 
 	.page-link {
 		color: $color-link;
-		font-weight: 450;
+		font-weight: 300;
 		transition: color 0.3s ease;
+		font-size: 1.1rem;
 
 		&:not(:last-child) {
 			margin-right: 40px;
