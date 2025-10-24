@@ -47,6 +47,11 @@ a:hover {
 	border-bottom: none;
 	background-color: $color-header-footer;
 
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+
 	.site-title {
 		font-family: $font-gaya-italic;
 		color: $color-link;
