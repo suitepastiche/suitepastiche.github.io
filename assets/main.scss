@@ -45,12 +45,16 @@ a:hover {
 .site-header {
 	border-top: none;
 	border-bottom: none;
-	background-color: $color-header-footer;
+	background-color: $color-background;
 
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	z-index: 10;
+
+	.wrapper {
+		border-bottom: 1px solid $color-text;
+	}
 
 	.site-title {
 		font-family: $font-gaya-italic;
