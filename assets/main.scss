@@ -6,7 +6,7 @@
 // Variables
 
 $color-background: #6f283b;
-$color-header-footer: #8b5a63;
+$color-footer: #8b5a63;
 $color-text: #eee;
 $color-link: #eee;
 $color-link-hover: #e3d0b7;
@@ -116,7 +116,7 @@ a:hover {
 // Footer
 
 .site-footer {
-	background-color: $color-header-footer;
+	background-color: $color-footer;
 	border-top: none;
 	padding: 20px 0;
 }
