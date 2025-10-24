@@ -145,6 +145,11 @@ a:hover {
 		background-color: $color-background;
 		border: 1px solid $color-text;
 
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
 		ul {
 			padding-left: 0;
 		}
