@@ -3,8 +3,9 @@
 
 @import "minima";
 
-// Variables
-
+// --------------------
+// VARIABLES
+// --------------------
 $color-background: #6f283b;
 $color-footer: #8b5a63;
 $color-text: #eee;
@@ -14,8 +15,9 @@ $color-link-hover: #e3d0b7;
 $font-gaya-regular: 'Gaya Regular', sans-serif;
 $font-gaya-italic: 'Gaya Italic', sans-serif;
 
-// Custom fonts
-
+// --------------------
+// CUSTOM FONTS
+// --------------------
 @font-face {
 	font-family: 'Gaya Regular';
 	src: url('{{ "/assets/fonts/gaya-regular.otf" | relative_url }}') format('opentype');
@@ -30,8 +32,9 @@ $font-gaya-italic: 'Gaya Italic', sans-serif;
 	font-style: normal;
 }
 
-// Global
-
+// --------------------
+// GLOBAL
+// --------------------
 body {
 	background-color: $color-background;
 }
@@ -40,8 +43,9 @@ a:hover {
 	text-decoration: none;
 }
 
-// Header
-
+// --------------------
+// HEADER
+// --------------------
 .site-header {
 	border-top: none;
 	border-bottom: none;
@@ -92,8 +96,9 @@ a:hover {
 	}
 }
 
-// Body and page text
-
+// --------------------
+// BODY TEXT
+// --------------------
 main.page-content {
 	flex: 1;
 }
@@ -118,8 +123,9 @@ main.page-content {
 	color: $color-text;
 }
 
-// Footer
-
+// --------------------
+// FOOTER
+// --------------------
 .site-footer {
 	background-color: $color-footer;
 	border-top: none;
@@ -153,8 +159,9 @@ main.page-content {
 	}
 }
 
-// Mobile menu
-
+// --------------------
+// MOBILE MENU
+// --------------------
 @include media-query ($on-palm) {
 
 	.site-nav {
@@ -189,8 +196,9 @@ main.page-content {
 	}
 }
 
-// Home page style
-
+// --------------------
+// HOME PAGE
+// --------------------
 .home-content {
 	display: flex;
 	align-items: center;
