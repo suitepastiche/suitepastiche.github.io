@@ -94,6 +94,12 @@ a:hover {
 
 // Body and page text
 
+main.page-content {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
 .post-content {
 	color: $color-text;
 
@@ -182,4 +188,18 @@ a:hover {
 	.menu-icon > svg path {
 		fill: $color-text;
 	}
+}
+
+// Home page style
+
+.home-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 75vh;
+}
+
+.home-image {
+	max-width: 85%;
+	height: auto;
 }
