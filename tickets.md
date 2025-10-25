@@ -14,4 +14,4 @@ To keep the party as special as possible, we ask just a few things:
 
 * Keep phones and loud conversations off the dance floor. We want to preserve it as a sacred space to physically connect with the music and other dancers.
 
-* Try and put aside time for the entire party; it's best experienced as a collective journey from start to finish. To this end, there are no pass-outs, and doors close at midnight.
+* Try and put aside time for the entire party, as it's best experienced as a collective journey from start to finish. To this end, there are no pass-outs, and doors close at midnight.
