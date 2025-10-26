@@ -164,36 +164,36 @@ main.page-content {
 // --------------------
 @include media-query ($on-palm) {
 
-	.site-nav {
-		background-color: $color-background;
-		border: 1px solid $color-text;
+  /* collapsed: no border */
+  .site-nav {
+    background-color: $color-background;
+    border: 1px solid transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
+    ul { padding-left: 0; }
 
-		ul {
-			padding-left: 0;
-		}
+    .page-link {
+      color: $color-link;
+      padding: 10px 10px;
 
-		.page-link {
-			color: $color-link;
-			padding: 10px 10px;
+      &:hover { color: $color-link-hover; }
 
-			&:hover {
-				color: $color-link-hover;
-			}
+      &:not(:last-child) { margin-right: 0; }
+    }
+  }
 
-			&:not(:last-child) {
-				margin-right: 0;
-			}
-		}
-	}	
+  .site-nav:has(#nav-trigger:checked) {
+    background-color: #343434;
+	border: 1px solid $color-text;
+    border-radius: 5px;
+  }
 
-	.menu-icon > svg path {
-		fill: $color-text;
-	}
+  .menu-icon > svg path {
+    fill: $color-text;
+  }
 }
 
 // --------------------
