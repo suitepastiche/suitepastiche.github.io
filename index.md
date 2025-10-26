@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Home
 permalink: /
 hide_title: true
 is_homepage: true
