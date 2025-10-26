@@ -1,7 +1,9 @@
 <footer class="site-footer h-card">
+  
   <a class="u-url" href="{{ '/' | relative_url }}"></a>
 
   <div class="wrapper">
+    
     <div class="custom-footer">
       {%- if site.description -%}
         <p class="footer-tagline">{{ site.description | escape }}</p>
@@ -23,12 +25,14 @@
                 {%- when "email" -%}
                   {%- include icon-email.html -%}
                 {%- else -%}
-                  <!-- no matching icon include; you can add more cases or put a default icon here -->
                 {%- endcase -%}
             </a>
           {%- endif -%}
         {%- endfor -%}
       </div>
+
     </div>
+
   </div>
+
 </footer>
