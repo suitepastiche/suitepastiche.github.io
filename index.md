@@ -14,4 +14,4 @@ If you need to get in touch, reach out through [email](mailto:hello@suitepatsich
 
 See you on the dance floor!
 
-![Welcome image]({{ "/assets/images/hero-image.png" | relative_url }})
+![An illuminated disco ball surrounded by fabric fringing]({{ "/assets/images/ball-vignette-black.jpg" | relative_url }})
