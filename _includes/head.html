@@ -3,44 +3,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {%- comment -%}
-  Homepage: emit simple <title> and essential meta/OG/twitter tags.
-  Other pages: leave jekyll-seo-tag to produce the full SEO output.
-  {%- endcomment -%}
-
-  {%- if page.url == "/" or page.url == "/index.html" or page.permalink == "/" -%}
-    <title>{{ site.title }}</title>
-
-    {%- if site.description -%}
-      <meta name="description" content="{{ site.description | escape }}">
-    {%- endif -%}
-
-    <link rel="canonical" href="{{ site.url | append: page.url | absolute_url }}">
-    <meta property="og:title" content="{{ site.title | escape }}">
-    {%- if site.description -%}
-      <meta property="og:description" content="{{ site.description | escape }}">
-    {%- endif -%}
-    <meta property="og:url" content="{{ site.url | append: page.url | absolute_url }}">
-    <meta property="og:site_name" content="{{ site.title | escape }}">
-    <meta name="twitter:card" content="summary">
-  {%- else -%}
-    {%- seo -%}
-  {%- endif -%}
+  {%- seo -%}
 
   <link rel="icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}">
-
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
-
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
-
   <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | relative_url }}">
-
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
 </head>
