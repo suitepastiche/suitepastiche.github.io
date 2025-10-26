@@ -15,7 +15,6 @@ permalink: /gallery/
   </div>
 </div>
 
-<!-- Lightbox overlay (no aria, no caption) -->
 <div id="gallery-overlay" class="gallery-overlay">
   <button id="gallery-close" class="gallery-close">✕</button>
   <div class="gallery-overlay-inner">
