@@ -237,3 +237,87 @@ main.page-content {
 	max-width: 85%;
 	height: auto;
 }
+
+// --------------------
+// GALLERY GRID
+// --------------------
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.6rem;
+  align-items: stretch;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #111;
+  aspect-ratio: 16 / 9;
+}
+
+.gallery-item img {
+  position: absolute;
+  inset: 0;       
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img,
+.gallery-item:focus img {
+  transform: scale(1.03);
+}
+
+/* Lightbox overlay */
+.gallery-overlay {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.85);
+  z-index: 9999;
+  padding: 2rem;
+}
+
+.gallery-overlay.is-open {
+  display: flex;
+}
+
+.gallery-overlay-inner {
+  max-width: 95%;
+  max-height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.gallery-overlay img {
+  max-width: 100%;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.gallery-close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.gallery-caption {
+  color: #ddd;
+  font-size: 0.95rem;
+  text-align: center;
+}
