@@ -14,4 +14,4 @@ If you need to get in touch, reach out through [email](mailto:hello@suitepatsich
 
 See you on the dance floor!
 
-![An illuminated disco ball surrounded by fabric fringing]({{ "/assets/images/ball-vignette-black.jpg" | relative_url }})
+![An illuminated disco ball surrounded by fabric fringing]({{ "/assets/images/mirror-ball-vignette.jpg" | relative_url }})
