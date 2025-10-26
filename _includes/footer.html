@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <a class="u-url" href="{{ '/' | relative_url }}"></a>
 
   <div class="wrapper">
     <div class="custom-footer">
@@ -8,25 +8,26 @@
       {%- endif -%}
 
       <div class="social-icons">
-
-        {%- if site.social.instagram_username -%}
-          <a href="https://www.instagram.com/{{ site.social.instagram_username | cgi_escape | escape }}" title="Instagram" target="_blank" rel="noopener noreferrer">
-            {%- include icon-instagram.html -%}
-          </a>
-        {%- endif -%}
-
-        {%- if site.social.instagram_username -%}
-          <a href="https://www.mixcloud.com/{{ site.social.mixcloud_username | cgi_escape | escape }}" title="Mixcloud" target="_blank" rel="noopener noreferrer">
-            {%- include icon-mixcloud.html -%}
-          </a>
-        {%- endif -%}    
-        
-         {%- if site.email -%}
-          <a href="mailto:{{ site.email }}" title-="Email">
-            {%- include icon-email.html -%}
-          </a>
-        {%- endif -%}        
-        
+        {%- for item in site.data.social -%}
+          {%- if item.url -%}
+            <a
+              href="{{ item.url | escape }}"
+              title="{{ item.title | escape }}"
+              aria-label="{{ item.title | escape }}"
+              {%- if item.external -%} target="_blank" rel="noopener noreferrer"{%- endif -%}>
+              {%- case item.key -%}
+                {%- when "instagram" -%}
+                  {%- include icon-instagram.html -%}
+                {%- when "mixcloud" -%}
+                  {%- include icon-mixcloud.html -%}
+                {%- when "email" -%}
+                  {%- include icon-email.html -%}
+                {%- else -%}
+                  <!-- no matching icon include; you can add more cases or put a default icon here -->
+                {%- endcase -%}
+            </a>
+          {%- endif -%}
+        {%- endfor -%}
       </div>
     </div>
   </div>

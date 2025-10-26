@@ -1,0 +1,14 @@
+- key: instagram
+  title: Instagram
+  url: "https://www.instagram.com/suitepastiche"
+  external: true
+
+- key: mixcloud
+  title: Mixcloud
+  url: "https://www.mixcloud.com/suitepastiche"
+  external: true
+
+- key: email
+  title: Email
+  url: "mailto:hello@suitepastiche.com"
+  external: false
