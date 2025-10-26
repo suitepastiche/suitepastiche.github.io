@@ -138,9 +138,15 @@ main.page-content {
 // FOOTER
 // --------------------
 .site-footer {
-	background-color: $color-footer;
-	border-top: none;
+	background-color: $color-background;
+	color: $color-text;
 	padding: 20px 0;
+	border-top: none;
+}
+
+.site-footer .wrapper {
+	border-top: 1px solid $color-text;
+	padding-top: 1rem;
 }
 
 .custom-footer {
@@ -154,20 +160,29 @@ main.page-content {
 }
 
 .social-icons {
-	.svg-icon {
-		fill: $color-text;
-		transition: fill 0.3s ease;
-		width: 20px;
-		height: 20px;
-	}
+  a {
+    color: $color-text;     /* controls icon colour when SVG uses currentColor */
+    margin: 0 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease;
+  }
 
-	a {
-		margin: 0 8px;
+  a:hover {
+    color: $color-link-hover;
+  }
 
-		&:hover .svg-icon {
-			fill: $color-link-hover;
-		}
-	}
+  .svg-icon {
+    /* ensure icons scale with font-size or can be sized explicitly */
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    /* no fill here if SVG uses fill="currentColor" — but keep a fallback */
+    fill: currentColor;
+    transition: fill 0.3s ease;
+  }
 }
 
 // --------------------
