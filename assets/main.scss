@@ -6,13 +6,14 @@
 // --------------------
 // VARIABLES
 // --------------------
-$color-background: black;
-$color-footer: #343434;
-$color-text: #DCDCDC;
-$color-link: #DCDCDC;
-$color-link-hover: #808080;
 
-$font-gaya-regular: 'Gaya Regular', sans-serif;
+// Colors
+$background: black;
+$text: #DCDCDC;
+$link: #DCDCDC;
+$link-hover: #808080;
+
+// Fonts
 $font-gaya-italic: 'Gaya Italic', sans-serif;
 
 // --------------------
@@ -36,7 +37,7 @@ $font-gaya-italic: 'Gaya Italic', sans-serif;
 // GLOBAL
 // --------------------
 body {
-	background-color: $color-background;
+	background-color: $background;
 }
 
 a:hover {
@@ -49,7 +50,7 @@ a:hover {
 .site-header {
 	border-top: none;
 	border-bottom: none;
-	background-color: $color-background;
+	background-color: $background;
 
 	position: -webkit-sticky;
 	position: sticky;
@@ -57,27 +58,27 @@ a:hover {
 	z-index: 10;
 
 	.wrapper {
-		border-bottom: 1px solid $color-text;
+		border-bottom: 1px solid $text;
 	}
 
 	.site-title {
 		font-family: $font-gaya-italic;
-		color: $color-link;
+		color: $link;
 		letter-spacing: .1px;
 		transition: color 0.3s ease;
 		font-size: 1.75rem;
 
 		&:visited {
-			color: $color-link;
+			color: $link;
 		}
 
 		&:hover {
-			color: $color-link-hover;
+			color: $link-hover;
 		}
 	}
 
 	.page-link {
-		color: $color-link;
+		color: $link;
 		font-weight: 300;
 		transition: color 0.3s ease;
 		font-size: 1.1rem;
@@ -87,11 +88,11 @@ a:hover {
 		}
 
 		&:visited {
-			color: $color-text;
+			color: $text;
 		}
 
 		&:hover {
-			color: $color-link-hover;
+			color: $link-hover;
 		}
 	}
 }
@@ -104,23 +105,23 @@ main.page-content {
 }
 
 .post-content {
-	color: $color-text;
+	color: $text;
 	flex: 1;
 
 	a {
-		color: $color-link;
+		color: $link;
 		text-decoration: underline;
 		transition: color .3s ease;
 
 		&:hover {
-			color: $color-link-hover;
+			color: $link-hover;
 		}
 	}
 }
 
 .post-title,
 .page-heading {
-	color: $color-text;
+	color: $text;
 }
 
 // --------------------
@@ -138,14 +139,14 @@ main.page-content {
 // FOOTER
 // --------------------
 .site-footer {
-	background-color: $color-background;
-	color: $color-text;
+	background-color: $background;
+	color: $text;
 	padding: 20px 0;
 	border-top: none;
 }
 
 .site-footer .wrapper {
-	border-top: 1px solid $color-text;
+	border-top: 1px solid $text;
 	padding-top: 1rem;
 }
 
@@ -154,14 +155,14 @@ main.page-content {
 }
 
 .footer-tagline{
-	color: $color-link-hover;
+	color: $link-hover;
 	font-size: 14px;
-	margin-bottom: 15px;
+	margin-bottom: 14px;
 }
 
 .social-icons {
   a {
-    color: $color-text;     /* controls icon colour when SVG uses currentColor */
+    color: $text;
     margin: 0 8px;
     display: inline-flex;
     align-items: center;
@@ -170,17 +171,15 @@ main.page-content {
   }
 
   a:hover {
-    color: $color-link-hover;
+    color: $link-hover;
   }
 
   .svg-icon {
-    /* ensure icons scale with font-size or can be sized explicitly */
     width: 20px;
     height: 20px;
     display: inline-block;
     vertical-align: middle;
-    /* no fill here if SVG uses fill="currentColor" — but keep a fallback */
-    fill: currentColor;
+    fill: $text;
     transition: fill 0.3s ease;
   }
 }
@@ -190,9 +189,8 @@ main.page-content {
 // --------------------
 @include media-query ($on-palm) {
 
-  /* collapsed: no border */
   .site-nav {
-    background-color: $color-background;
+    background-color: $background;
     border: 1px solid transparent;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -202,10 +200,10 @@ main.page-content {
     ul { padding-left: 0; }
 
     .page-link {
-      color: $color-link;
+      color: $link;
       padding: 10px 10px;
 
-      &:hover { color: $color-link-hover; }
+      &:hover { color: $link-hover; }
 
       &:not(:last-child) { margin-right: 0; }
     }
@@ -213,29 +211,13 @@ main.page-content {
 
   .site-nav:has(#nav-trigger:checked) {
     background-color: #343434;
-	border: 1px solid $color-text;
-    border-radius: 5px;
+	border: 1px solid $text;
+    border-radius: 4px;
   }
 
   .menu-icon > svg path {
-    fill: $color-text;
+    fill: $text;
   }
-}
-
-// --------------------
-// HOME PAGE
-// --------------------
-.home-content {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 75vh;
-	flex: 1;
-}
-
-.home-image {
-	max-width: 85%;
-	height: auto;
 }
 
 // --------------------
@@ -252,7 +234,6 @@ main.page-content {
   position: relative;
   overflow: hidden;
   border-radius: 4px;
-  background: #111;
   aspect-ratio: 16 / 9;
 }
 
@@ -272,7 +253,9 @@ main.page-content {
   transform: scale(1.03);
 }
 
-/* Lightbox overlay */
+// --------------------
+// LIGHTBOX OVERLAY
+// --------------------
 .gallery-overlay {
   position: fixed;
   inset: 0;
@@ -281,7 +264,7 @@ main.page-content {
   justify-content: center;
   background: rgba(0,0,0,0.85);
   z-index: 9999;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .gallery-overlay.is-open {
@@ -299,10 +282,9 @@ main.page-content {
 
 .gallery-overlay img {
   max-width: 100%;
-  max-height: 80vh;
+  max-height: 90vh;
   width: auto;
   height: auto;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
 }
 
 .gallery-close {
@@ -312,12 +294,6 @@ main.page-content {
   background: transparent;
   border: none;
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 2rem;
   cursor: pointer;
-}
-
-.gallery-caption {
-  color: #ddd;
-  font-size: 0.95rem;
-  text-align: center;
 }
