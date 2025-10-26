@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /
-hide_title: true
 is_homepage: true
+hide_title: true
 ---
 
 We're Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music. [Read more about the party](/about.md)
