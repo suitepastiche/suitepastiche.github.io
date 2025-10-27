@@ -5,7 +5,7 @@ baseurl: ""
 lang: en
 timezone: Australia/Melbourne
 
-email: mailto:hello@suitepastiche.com
+email: mailto:hi@suitepastiche.com
 
 header_pages:
   - about.md
