@@ -4,37 +4,25 @@
 @import "minima";
 
 // --------------------
-// VARIABLES
+// COLOR VARIABLES
 // --------------------
-
-// Colors
 $background: black;
 $text: #DCDCDC;
 $link: #DCDCDC;
 $link-hover: #808080;
 
-// Fonts
-$font-gaya-italic: 'Gaya Italic', sans-serif;
-
 // --------------------
 // CUSTOM FONTS
 // --------------------
 @font-face {
-	font-family: 'Gaya Regular';
-	src: url('{{ "/assets/fonts/gaya-regular.otf" | relative_url }}') format('opentype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family: 'Gaya Italic';
 	src: url('{{ "/assets/fonts/gaya-italic.otf" | relative_url }}') format('opentype');
 	font-weight: normal;
-	font-style: normal;
+	font-style: regular;
 }
 
 // --------------------
-// GLOBAL
+// GLOBAL STYLE
 // --------------------
 body {
 	background-color: $background;
@@ -45,7 +33,7 @@ a:hover {
 }
 
 // --------------------
-// HEADER
+// HEADER STYLE
 // --------------------
 .site-header {
 	border-top: none;
@@ -62,14 +50,14 @@ a:hover {
 	}
 
 	.site-title {
-		font-family: $font-gaya-italic;
-		color: $link;
+		font-family: 'Gaya Italic';
+		color: $text;
 		letter-spacing: .1px;
 		transition: color 0.3s ease;
 		font-size: 1.75rem;
 
 		&:visited {
-			color: $link;
+			color: $text;
 		}
 
 		&:hover {
@@ -84,7 +72,7 @@ a:hover {
 		font-size: 1.1rem;
 
 		&:not(:last-child) {
-			margin-right: 40px;
+			margin-right: 2.5rem;
 		}
 
 		&:visited {
@@ -141,7 +129,7 @@ main.page-content {
 .site-footer {
 	background-color: $background;
 	color: $text;
-	padding: 20px 0;
+	padding: 1.25rem 0;
 	border-top: none;
 }
 
@@ -156,14 +144,14 @@ main.page-content {
 
 .footer-tagline{
 	color: $link-hover;
-	font-size: 14px;
-	margin-bottom: 14px;
+	font-size: 0.85rem;
+	margin-bottom: 0.85rem;
 }
 
 .social-icons {
   a {
     color: $text;
-    margin: 0 8px;
+    margin: 0 0.5rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -175,8 +163,8 @@ main.page-content {
   }
 
   .svg-icon {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     display: inline-block;
     vertical-align: middle;
     fill: $text;
@@ -201,7 +189,7 @@ main.page-content {
 
     .page-link {
       color: $link;
-      padding: 10px 10px;
+      padding: 0.625rem;
 
       &:hover { color: $link-hover; }
 
@@ -212,7 +200,7 @@ main.page-content {
   .site-nav:has(#nav-trigger:checked) {
     background-color: #343434;
 	border: 1px solid $text;
-    border-radius: 4px;
+    border-radius: 0.25rem;
   }
 
   .menu-icon > svg path {
@@ -233,7 +221,7 @@ main.page-content {
 .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   aspect-ratio: 16 / 9;
 }
 
