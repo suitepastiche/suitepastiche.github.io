@@ -86,7 +86,7 @@ a:hover {
 }
 
 // --------------------
-// BODY TEXT
+// BODY TEXT STYLE
 // --------------------
 main.page-content {
 	flex: 1;
@@ -113,18 +113,18 @@ main.page-content {
 }
 
 // --------------------
-// MIXES PAGE
+// MIXCLOUD IFRAME STYLE
 // --------------------
 .mixcloud-player {
   display: block;
   width: 100%;
   height: 120px;
-  margin: 0 0 1.25rem;    
-  border: 0;             
+  margin: 0 0 1.25rem;
+  border: 0;          
 }
 
 // --------------------
-// FOOTER
+// FOOTER STYLE
 // --------------------
 .site-footer {
 	background-color: $background;
@@ -150,7 +150,7 @@ main.page-content {
 
 .social-icons {
   a {
-    color: $text;
+    color: $link;
     margin: 0 0.5rem;
     display: inline-flex;
     align-items: center;
@@ -167,13 +167,13 @@ main.page-content {
     height: 1.25rem;
     display: inline-block;
     vertical-align: middle;
-    fill: $text;
+    fill: currentColor;
     transition: fill 0.3s ease;
   }
 }
 
 // --------------------
-// MOBILE MENU
+// MOBILE MENU STYLE
 // --------------------
 @include media-query ($on-palm) {
 
@@ -209,7 +209,7 @@ main.page-content {
 }
 
 // --------------------
-// GALLERY GRID
+// GALLERY GRID STYLE
 // --------------------
 .gallery {
   display: grid;
@@ -242,7 +242,7 @@ main.page-content {
 }
 
 // --------------------
-// LIGHTBOX OVERLAY
+// LIGHTBOX OVERLAY STYLE
 // --------------------
 .gallery-overlay {
   position: fixed;
