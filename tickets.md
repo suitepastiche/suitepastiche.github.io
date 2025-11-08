@@ -6,9 +6,9 @@ permalink: /tickets/
 
 Our next party is 14 February 2026 at Fringe Common Rooms. To get notified when tickets go on sale, [join the mailing list](http://eepurl.com/iD0_9A){:target="_blank" rel="noopener noreferrer"}.
 
-### Social expectations
+## Social expectations
 
-To keep the party as special as possible, we ask just a few things:
+To keep the party as special as possible, please:
 
 * Treat your fellow guests, staff, and the equipment with love, care, and respect. Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, let the venue staff know.
 
