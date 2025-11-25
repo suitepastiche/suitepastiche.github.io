@@ -6,7 +6,7 @@ permalink: /about/
 
 Suite Pastiche is Melbourne’s hi-fi dance party for the socially enagaged and sonically curious. We exist to bring people together through music.
 
-The party germinated after years of exposure to kindred parties in London – namely <a href="https://www.allourfriends.org" target="_blank" rel="noopener noreferrer">All Our Friends</a> and <a href="https://www.houseparty.org.uk" target="_blank" rel="noopener noreferrer">Beauty and the Beat</a> – which have their roots in New York’s Loft. Knowing how much these parties positively impact the lives of people in their orbit, it felt like a social imperative to bring something similar to the other side of the world.
+The party germinated after years of exposure to kindred parties in London – namely <a href="https://www.allourfriends.org" target="_blank" rel="noopener noreferrer">All Our Friends</a> and <a href="https://www.houseparty.org.uk" target="_blank" rel="noopener noreferrer">Beauty and the Beat</a> – which trace their roots to New York’s Loft. Knowing how much these parties positively impact the lives of people in their orbit, it felt like a social imperative to bring something similar to the other side of the world.
 
 So, what started as intimate house parties in 2022 evolved into public parties in 2024, when the living room simply couldn’t hold any more guests.
 
