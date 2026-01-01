@@ -6,10 +6,10 @@
 // --------------------
 // COLOR VARIABLES
 // --------------------
-$background: black;
-$text: #DCDCDC;
-$link: #DCDCDC;
-$link-hover: #808080;
+$background: #68a3b0;
+$text: #fefbf6;
+$link: #fefbf6;
+$link-hover: #c8e8fc;
 
 // --------------------
 // CUSTOM FONTS
@@ -198,7 +198,7 @@ main.page-content {
   }
 
   .site-nav:has(#nav-trigger:checked) {
-    background-color: #343434;
+    background-color: #4fa0b3;
 	border: 1px solid $text;
     border-radius: 0.25rem;
   }
