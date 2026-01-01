@@ -6,7 +6,7 @@ permalink: /tickets/
 
 <script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
 
-**[Get tickets](https://events.humanitix.com/suite-pastiche-feb-2026/tickets?widget=popup) to our next party on 14 February 2026**
+**[Get tickets to our 14 February party](https://events.humanitix.com/suite-pastiche-feb-2026/tickets?widget=popup)**
 
 Love saves the day!
 
@@ -24,7 +24,7 @@ We can't wait to [share the love around](https://www.youtube.com/watch?v=ELlwCOV
 
 ## Social expectations
 
-To help us preserve our [unique party environment](/about.md), please:
+To help us preserve our unique party environment, please:
 
 * **Treat your fellow guests, staff, and the equipment with love, care, and respect.** Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, let the venue staff know.
 
