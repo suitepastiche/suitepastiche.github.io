@@ -6,7 +6,7 @@ permalink: /tickets/
 
 <script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
 
-**[Get tickets to our 14 February party](https://events.humanitix.com/suite-pastiche-feb-2026/tickets?widget=popup)**
+**[Get tickets to our party on 14 February](https://events.humanitix.com/suite-pastiche-feb-2026/tickets?widget=popup)**
 
 Love saves the day!
 
@@ -34,4 +34,4 @@ To help us preserve our unique party environment, please:
 
 ~
 
-*Nobody should be denied the right to dance, so we keep our ticket prices affordable – but if price is a barrier to entry, contact us.*
+*Nobody should be denied the right to dance, so we keep our ticket prices affordable – but if price is a barrier to entry, [contact us](mailto:hi@suitepastiche.com).*
