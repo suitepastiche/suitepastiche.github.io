@@ -12,7 +12,7 @@ Love saves the day!
 
 We're thrilled to be back on the dance floor – this time on Valentine's Day, also the 56th anniversary of the original hi-fi dance party, [the Loft](https://daily.redbullmusicacademy.com/2018/02/the-loft-nightclubbing){:target="_blank" rel="noopener noreferrer"}.
 
-As ever, we'll be ensconced in a beautiful old ballroom, surrounded by our stunning four-point Klipschorn sound system, exploring diverse, dance-forward, joy-inducing music that brings together probably the loveliest party community in Naarm. For an aural taste of what to expect, [listen to the last party](https://www.mixcloud.com/suitepastiche/september-2025/){:target="_blank" rel="noopener noreferrer"}.
+As ever, we'll be ensconced in a beautiful old ballroom, surrounded by our stunning four-point Klipschorn sound system, exploring diverse, dance-forward, joy-inducing music that brings together probably the loveliest party community in the city. For an aural taste of what to expect, [listen to the last party](https://www.mixcloud.com/suitepastiche/september-2025/){:target="_blank" rel="noopener noreferrer"}.
 
 Energy is also essential for any good party, so there'll be a vegan grazing table, a bar, and spots to chill out, socialise, and make new friends in.
 
