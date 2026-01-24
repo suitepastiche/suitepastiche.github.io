@@ -6,7 +6,15 @@ permalink: /tickets/
 
 <script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
 
-**[Get tickets to our party on 14 February](https://events.humanitix.com/suite-pastiche-feb-2026/tickets?widget=popup)**
+🎟️ [Get tickets](https://events.humanitix.com/suite-pastiche-feb-2026/tickets?widget=popup) 🎟️
+
+## When and where
+
+14 February 2026, 7:30pm – 2:30am
+<br>
+Fringe Common Rooms, Carlton VIC 3053
+
+## Details
 
 Love saves the day!
 
@@ -28,9 +36,9 @@ To help us preserve our unique party environment, please:
 
 * **Treat your fellow guests, staff, and the equipment with love, care, and respect.** Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, let the venue staff know.
 
-* **Keep phones and loud conversations off the dance floor.** We want to keep it as a sacred space to physically connect with the music, yourself, and other dancers.
+* **Keep phones and conversations off the dance floor.** We want to keep it as a sacred space to physically and emotionally connect with the music, yourself, and other dancers.
 
-* **Try and put aside time for the entire party,** as it's best experienced as a collective journey from start to finish. To this end, there are no pass-outs, and doors close at midnight.
+* **Try and put aside time for the entire party.** It's best experienced as a collective journey from start to finish. To this end, there's no re-entry, and doors close at midnight.
 
 ~
 

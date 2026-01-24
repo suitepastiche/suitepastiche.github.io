@@ -5,10 +5,12 @@ is_homepage: true
 hide_title: true
 ---
 
-<div style="text-align: center;" markdown="1">
-  **Our next party is 14 February**
+<script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
+
+<div class="hero-text" markdown="1">
+  ✨ Next party 14 February ✨
   <br>
-  [Get tickets](/tickets.md)
+  [Get tickets](https://events.humanitix.com/suite-pastiche-feb-2026/tickets?widget=popup)
 </div>
 
-![A dance party scene illustrated in cartoon style]({{ "assets/images/20260214 Website 900x1125.png" | relative_url }})
+![A dance party scene illustrated in cartoon style]({{ "assets/images/20260214 Website 900x1125.png" | relative_url }}){: .hero-image }
