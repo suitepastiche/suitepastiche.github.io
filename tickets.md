@@ -4,9 +4,7 @@ title: Tickets
 permalink: /tickets/
 ---
 
-<script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
-
-🎟️ [Get tickets](https://events.humanitix.com/suite-pastiche-feb-2026/tickets?widget=popup) 🎟️
+**Sold out!** [Check the resale queue](https://events.humanitix.com/suite-pastiche-feb-2026/au/resale?dateId=694886305aafde1b9a4e6747){:target="_blank" rel="noopener noreferrer"}, or get down early for limited tickets on the door.
 
 ## When and where
 
