@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Suite is Naarm/Melbourne's hi-fi dance party for the socially enagaged and sonically curious. We exist to bring people together through music.
+Suite Pastiche is Naarm/Melbourne's hi-fi dance party for the socially enagaged and sonically curious. We exist to bring people together through music.
 
 The party germinated after years of exposure to kindred parties in London – namely <a href="https://www.allourfriends.org" target="_blank" rel="noopener noreferrer">All Our Friends</a> and <a href="https://www.houseparty.org.uk" target="_blank" rel="noopener noreferrer">Beauty and the Beat</a> – which trace their roots to New York’s Loft. Knowing how much these parties positively impact the lives of people in their orbit, it felt like a social imperative to bring something similar to the other side of the world.
 
@@ -20,4 +20,12 @@ Socially, Suite Pastiche is a uniting third place, where status is left at the d
 
 And while these parties happen regularly, each one is imbued with a sense of *ichi-go ichi-e*: a unique meeting of people, sound, and energy that can’t ever be repeated, and is cherished for that very reason.
 
-See you at the [next party](/tickets.md)!
+## Social expectations
+
+As mentioned above, we pride ourselves on cultivating a unique party environment. To help us preserve this when you join us, please:
+
+* **Treat your fellow guests, staff, and the equipment with love, care, and respect.** Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, let the venue staff know.
+
+* **Keep phones and loud conversations off the dance floor.** We want to keep it as a sacred space to physically connect with the music, yourself, and other dancers.
+
+* **Try and put aside time for the entire party,** as it's best experienced as a collective journey from start to finish. To this end, there are no pass-outs, and doors close at midnight.
