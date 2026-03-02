@@ -303,6 +303,9 @@ main.page-content {
 }
 
 .gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   background: transparent;
   border: none;
   color: #fff;
@@ -311,12 +314,14 @@ main.page-content {
   padding: 1rem;
   opacity: 0.7;
   transition: opacity 0.2s ease;
-  flex-shrink: 0;
 
   &:hover {
     opacity: 1;
   }
 }
+
+#gallery-prev { left: 1.5rem; }
+#gallery-next { right: 1.5rem; }
 
 // 404 page
 .not-found {
