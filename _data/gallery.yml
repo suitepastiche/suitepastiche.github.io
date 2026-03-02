@@ -1,3 +1,4 @@
+# After adding a new image here, run: bash scripts/generate-thumbs.sh
 - filename: "sp-gallery-001.jpg"
 - filename: "sp-gallery-002.jpg"
 - filename: "sp-gallery-003.jpg"

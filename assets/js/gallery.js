@@ -7,12 +7,32 @@ document.addEventListener('DOMContentLoaded', function () {
   const items = Array.from(document.querySelectorAll('.gallery-item'));
   let currentIndex = -1;
 
+  items.forEach(function (item) {
+    const img = item.querySelector('img');
+    if (img.complete) {
+      img.classList.add('loaded');
+    } else {
+      img.addEventListener('load', function () { img.classList.add('loaded'); });
+    }
+  });
+
   function openOverlay(index) {
     currentIndex = index;
-    overlayImg.src = items[index].dataset.full;
+    const thumbSrc = items[index].querySelector('img').src;
+    const fullSrc = items[index].dataset.full;
+
+    overlayImg.src = thumbSrc;
     overlay.classList.add('is-open');
     prevBtn.style.visibility = index === 0 ? 'hidden' : 'visible';
     nextBtn.style.visibility = index === items.length - 1 ? 'hidden' : 'visible';
+
+    if (thumbSrc !== fullSrc) {
+      const fullImg = new Image();
+      fullImg.onload = function () {
+        if (currentIndex === index) overlayImg.src = fullSrc;
+      };
+      fullImg.src = fullSrc;
+    }
   }
 
   function closeOverlay() {
