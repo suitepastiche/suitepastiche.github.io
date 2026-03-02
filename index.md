@@ -11,4 +11,4 @@ Our next party is 16 May. To get tickets when they become available, [join the m
 
 See you on the dance floor!
 
-![A dance party scene illustrated in cartoon style]({{ "assets/images/20260214 Website 900x1125.png" | relative_url }}){: .hero-image }
+![A dance party scene illustrated in cartoon style]({{ "assets/images/20260214-website-900x1125.png" | relative_url }}){: .hero-image }
