@@ -302,6 +302,22 @@ main.page-content {
   cursor: pointer;
 }
 
+.gallery-nav {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 // 404 page
 .not-found {
   text-align: center;

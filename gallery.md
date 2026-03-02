@@ -2,6 +2,7 @@
 layout: page
 title: Gallery
 permalink: /gallery/
+gallery: true
 ---
 
 <div class="gallery-wrap">
@@ -17,40 +18,9 @@ permalink: /gallery/
 
 <div id="gallery-overlay" class="gallery-overlay">
   <button id="gallery-close" class="gallery-close">✕</button>
+  <button id="gallery-prev" class="gallery-nav" aria-label="Previous image">&#8592;</button>
   <div class="gallery-overlay-inner">
-    <img id="gallery-overlay-img" src="">
+    <img id="gallery-overlay-img" src="" alt="">
   </div>
+  <button id="gallery-next" class="gallery-nav" aria-label="Next image">&#8594;</button>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const overlay = document.getElementById('gallery-overlay');
-  const overlayImg = document.getElementById('gallery-overlay-img');
-  const closeBtn = document.getElementById('gallery-close');
-
-  function openOverlay(src) {
-    overlayImg.src = src;
-    overlay.classList.add('is-open');
-  }
-
-  function closeOverlay() {
-    overlay.classList.remove('is-open');
-    overlayImg.src = '';
-  }
-
-  document.querySelector('.gallery').addEventListener('click', function (e) {
-    const a = e.target.closest('.gallery-item');
-    if (!a) return;
-    e.preventDefault();
-    openOverlay(a.dataset.full);
-  });
-
-  closeBtn.addEventListener('click', closeOverlay);
-  overlay.addEventListener('click', function (e) {
-    if (e.target === overlay) closeOverlay();
-  });
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && overlay.classList.contains('is-open')) closeOverlay();
-  });
-});
-</script>
