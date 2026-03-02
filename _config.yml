@@ -5,17 +5,11 @@ baseurl: ""
 lang: en
 timezone: Australia/Melbourne
 
-email: mailto:hi@suitepastiche.com
-
 header_pages:
   - about.md
   - tickets.md
   - listen.md
   - gallery.md
-
-social:
-  instagram_username: suitepastiche
-  mixcloud_username: suitepastiche
 
 theme: minima
 markdown: kramdown
