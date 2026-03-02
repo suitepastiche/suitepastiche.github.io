@@ -6,8 +6,10 @@
 
   {%- seo -%}
 
+  {%- if page.mixcloud -%}
   <link rel="preconnect" href="https://player-widget.mixcloud.com" crossorigin>
   <link rel="dns-prefetch" href="//player-widget.mixcloud.com">
+  {%- endif -%}
 
   <link rel="icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
