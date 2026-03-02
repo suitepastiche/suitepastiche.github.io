@@ -1,7 +1,6 @@
 ---
 layout: page
 permalink: /
-is_homepage: true
 hide_title: true
 ---
 
