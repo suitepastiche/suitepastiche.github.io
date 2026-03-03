@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const nextBtn = document.getElementById('gallery-next');
   const items = Array.from(document.querySelectorAll('.gallery-item'));
   let currentIndex = -1;
+  const fullCache = {};
 
   items.forEach(function (item) {
     const img = item.querySelector('img');
@@ -16,23 +17,46 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
+  function preload(index) {
+    if (index < 0 || index >= items.length || fullCache[index]) return;
+    // Preload thumbnail in case it was lazy-loaded off-screen
+    new Image().src = items[index].querySelector('img').src;
+    // Preload full image and cache the reference
+    const img = new Image();
+    fullCache[index] = img;
+    img.src = items[index].dataset.full;
+  }
+
   function openOverlay(index) {
     currentIndex = index;
-    const thumbSrc = items[index].querySelector('img').src;
-    const fullSrc = items[index].dataset.full;
+    const item = items[index];
+    const thumbSrc = item.querySelector('img').src;
+    const fullSrc = item.dataset.full;
 
-    overlayImg.src = thumbSrc;
+    preload(index);
+    const fullImg = fullCache[index];
+
+    if (fullImg.complete) {
+      // Full image already cached from adjacent preloading — show directly
+      overlayImg.src = fullSrc;
+    } else {
+      overlayImg.src = thumbSrc;
+      if (thumbSrc !== fullSrc) {
+        fullImg.onload = function () {
+          if (currentIndex === index) overlayImg.src = fullSrc;
+        };
+        // Guard against race where image finished between .complete check and setting onload
+        if (fullImg.complete && currentIndex === index) overlayImg.src = fullSrc;
+      }
+    }
+
     overlay.classList.add('is-open');
     prevBtn.style.visibility = index === 0 ? 'hidden' : 'visible';
     nextBtn.style.visibility = index === items.length - 1 ? 'hidden' : 'visible';
 
-    if (thumbSrc !== fullSrc) {
-      const fullImg = new Image();
-      fullImg.onload = function () {
-        if (currentIndex === index) overlayImg.src = fullSrc;
-      };
-      fullImg.src = fullSrc;
-    }
+    // Preload adjacent images for flash-free navigation
+    preload(index - 1);
+    preload(index + 1);
   }
 
   function closeOverlay() {
