@@ -1,9 +1,9 @@
 <footer class="site-footer h-card">
-  
+
   <a class="u-url" href="{{ '/' | relative_url }}"></a>
 
   <div class="wrapper">
-    
+
     <div class="custom-footer">
       {%- if site.description -%}
         <p class="footer-tagline">{{ site.description | escape }}</p>
@@ -11,7 +11,11 @@
 
       <div class="social-icons">
         {%- for item in site.data.social -%}
-          {%- if item.url -%}
+          {%- if item.key == "email" and item.encoded -%}
+            <a href="#" data-obf="{{ item.encoded }}" title="{{ item.title | escape }}" aria-label="{{ item.title | escape }}">
+              {%- include icon-email.html -%}
+            </a>
+          {%- elsif item.url -%}
             <a
               href="{{ item.url | escape }}"
               title="{{ item.title | escape }}"
@@ -22,10 +26,8 @@
                   {%- include icon-instagram.html -%}
                 {%- when "mixcloud" -%}
                   {%- include icon-mixcloud.html -%}
-                {%- when "email" -%}
-                  {%- include icon-email.html -%}
                 {%- else -%}
-                {%- endcase -%}
+              {%- endcase -%}
             </a>
           {%- endif -%}
         {%- endfor -%}
@@ -34,5 +36,11 @@
     </div>
 
   </div>
+
+  <script>
+    document.querySelectorAll('[data-obf]').forEach(function(el){
+      el.href = 'mailto:' + atob(el.dataset.obf);
+    });
+  </script>
 
 </footer>
