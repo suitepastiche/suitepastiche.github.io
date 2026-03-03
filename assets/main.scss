@@ -19,6 +19,7 @@ $link-hover: #c8e8fc;
 	src: url('{{ "/assets/fonts/gaya-italic.otf" | relative_url }}') format('opentype');
 	font-weight: normal;
 	font-style: regular;
+	font-display: swap;
 }
 
 // --------------------
