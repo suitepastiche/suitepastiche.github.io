@@ -4,7 +4,7 @@ permalink: /
 hide_title: true
 ---
 
-Suite Pastiche is Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music. [More about the party](/about.md)
+Suite Pastiche is Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music. [Read more about the party](/about.md)
 
 Our next party is 16 May. To get tickets when they become available, [join the mailing list](https://preview.mailerlite.io/forms/2046266/179553174649046476/share){:target="_blank" rel="noopener noreferrer"}.
 
