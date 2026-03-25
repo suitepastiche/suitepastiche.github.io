@@ -3,6 +3,7 @@ layout: page
 title: Listen
 permalink: /listen/
 mixcloud: true
+description: Listen to recordings of past parties
 ---
 
 Listen back to recordings of recent parties. [Listen to more on Mixcloud](https://www.mixcloud.com/suitepastiche/){:target="_blank" rel="noopener noreferrer"}

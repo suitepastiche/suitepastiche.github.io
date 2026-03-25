@@ -3,6 +3,7 @@ layout: page
 title: Gallery
 permalink: /gallery/
 gallery: true
+description: See photos of past parties
 ---
 
 <div class="gallery-wrap">

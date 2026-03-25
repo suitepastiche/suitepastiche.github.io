@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: Read about the party's history, ethos, and social expectations
 ---
 
 Suite Pastiche is Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music.
