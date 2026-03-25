@@ -11,7 +11,7 @@ description: See photos of past parties
     {%- for img in site.data.gallery -%}
       {%- assign full = img.filename -%}
       <a class="gallery-item" href="{{ '/assets/gallery/' | append: full | relative_url }}" data-full="{{ '/assets/gallery/' | append: full | relative_url }}">
-        <img src="{{ '/assets/gallery/thumbs/' | append: full | relative_url }}" loading="{% if forloop.index <= 6 %}eager{% else %}lazy{% endif %}" decoding="async">
+        <img src="{{ '/assets/gallery/thumbs/' | append: full | relative_url }}" loading="{% if forloop.index <= 6 %}eager{% else %}lazy{% endif %}" decoding="async" alt="">
       </a>
     {%- endfor -%}
   </div>
