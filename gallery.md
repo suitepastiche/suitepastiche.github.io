@@ -17,7 +17,7 @@ gallery: true
 </div>
 
 <div id="gallery-overlay" class="gallery-overlay">
-  <button id="gallery-close" class="gallery-close">✕</button>
+  <button id="gallery-close" class="gallery-close" aria-label="Close">✕</button>
   <button id="gallery-prev" class="gallery-nav" aria-label="Previous image">&#8592;</button>
   <div class="gallery-overlay-inner">
     <img id="gallery-overlay-img" src="" alt="">
