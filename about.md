@@ -23,7 +23,7 @@ And while these parties happen regularly, each one is imbued with a sense of *ic
 
 ## Social expectations
 
-We pride ourselves on cultivating a unique party environment. To help us preserve this when you join us, please:
+To help us preserve our unique party environment, please:
 
 * **Treat your fellow guests, staff, and the equipment with love, care, and respect.** Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, let the venue staff know.
 
