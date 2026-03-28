@@ -17,15 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // Fallback for iOS Safari, which sometimes silently drops load events for
-  // lazy-loaded images inside overflow:hidden containers. Ensures all thumbnails
-  // become visible once the full page has loaded.
-  window.addEventListener('load', function () {
-    items.forEach(function (item) {
-      item.querySelector('img').classList.add('loaded');
-    });
-  });
-
   function preload(index) {
     if (index < 0 || index >= items.length || fullCache[index]) return;
     // Preload thumbnail in case it was lazy-loaded off-screen
