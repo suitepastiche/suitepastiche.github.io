@@ -37,21 +37,12 @@ a:hover {
 // --------------------
 // HEADER STYLE
 // --------------------
-@keyframes site-title-dance {
-	0%   { transform: rotate(0deg)    translateY(0);    }
-	20%  { transform: rotate(-2deg)   translateY(-2px); }
-	40%  { transform: rotate(2deg)    translateY(1px);  }
-	60%  { transform: rotate(-1.5deg) translateY(-1px); }
-	80%  { transform: rotate(1deg)    translateY(0);    }
-	100% { transform: rotate(0deg)    translateY(0);    }
-}
 
 .site-header {
 	border-top: none;
 	border-bottom: none;
 	background-color: $background;
 
-	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	z-index: 10;
@@ -73,7 +64,6 @@ a:hover {
 
 		&:hover {
 			color: $link-hover;
-			animation: site-title-dance 0.5s ease-in-out;
 		}
 	}
 
@@ -100,9 +90,6 @@ a:hover {
 // --------------------
 // HERO IMAGE STYLE
 // --------------------
-.hero-text {
-    text-align: center;
-}
 
 .hero-image {
     width: 80%;
@@ -207,9 +194,7 @@ main.page-content {
   .site-nav {
     background-color: $background;
     border: 1px solid transparent;
-    -webkit-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
 
     ul { padding-left: 0; }
