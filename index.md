@@ -6,8 +6,8 @@ hide_title: true
 
 Suite Pastiche is Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music. [Read more about the party](/about/)
 
-Our next party is 16 May. To get tickets when they become available, [join the mailing list](https://preview.mailerlite.io/forms/2046266/179553174649046476/share){:target="_blank" rel="noopener noreferrer"}.
+To get tickets when they become available, [join the mailing list](https://preview.mailerlite.io/forms/2046266/179553174649046476/share){:target="_blank" rel="noopener noreferrer"}.
 
 See you on the dance floor!
 
-![A dance party scene illustrated in cartoon style]({{ "assets/images/20260214-website-900x1125.png" | relative_url }}){: .hero-image }
+![A dance party scene illustrated in cartoon style]({{ "assets/images/20260516_Website_900x1125.png" | relative_url }}){: .hero-image }
