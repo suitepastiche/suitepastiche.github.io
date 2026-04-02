@@ -4,9 +4,9 @@ permalink: /
 hide_title: true
 ---
 
-We're Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music. [Read more about the party](/about/)
+We're Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music.
 
-Our next party is 16 May. [Get tickets](/tickets/)
+Our next party is 16 May. **[Get tickets](/tickets/)**
 
 See you in the dance!
 
