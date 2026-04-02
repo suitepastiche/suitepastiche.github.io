@@ -21,12 +21,4 @@ Socially, Suite Pastiche is a uniting third place, where status is left at the d
 
 And while these parties happen regularly, each one is imbued with a sense of *ichi-go ichi-e*: a unique meeting of people, sound, and energy that can’t ever be repeated, and is cherished for that very reason.
 
-## Social expectations
-
-To help us preserve our unique party environment, please:
-
-* **Treat your fellow guests, staff, and the equipment with love, care, and respect.** Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, let the venue staff know.
-
-* **Keep phones and loud conversations off the dance floor.** We want to keep it as a sacred space to physically connect with the music, yourself, and other dancers.
-
-* **Try and put aside time for the entire party,** as it's best experienced as a collective journey from start to finish. To this end, there are no pass-outs, and doors close at midnight.
+See you at the [next party](/tickets/)!
