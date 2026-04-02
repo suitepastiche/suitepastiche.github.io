@@ -21,4 +21,4 @@ Socially, Suite Pastiche is a uniting third place, where status is left at the d
 
 And while these parties happen regularly, each one is imbued with a sense of *ichi-go ichi-e*: a unique meeting of people, sound, and energy that can’t ever be repeated, and is cherished for that very reason.
 
-See you at the [next party](/tickets/)!
+We can't wait to see you at the [next party](/tickets/)!

@@ -7,7 +7,7 @@ description: Get tickets to the next party
 
 <script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
 
-We’re back on 16 May at Fringe Common Rooms for an autumnal dance under the mirror ball! 🍂
+We’re back on 16 May at Fringe Common Rooms for an autumnal dance under the mirror ball 🍂
 
 [**Get tickets**](https://events.humanitix.com/suite-pastiche-may-2026/tickets?widget=popup)
 
@@ -17,7 +17,7 @@ As usual, our finely-tuned four-point Klipschorn sound system will be in full sw
 
 Energy is essential for any good party, so there'll also be a vegan grazing table, a bar, and many spaces to chill out and socialise in.
 
-Tickets are limited, we're an intimate affair (and like it that way).
+Tickets are limited; it's an intimate affair.
 
 See you in the dance!
 

@@ -19,8 +19,7 @@ $link-hover: #ffd85c;
 	font-family: 'Gaya Italic';
 	src: url('{{ "/assets/fonts/gaya-italic.otf" | relative_url }}') format('opentype');
 	font-weight: normal;
-	font-style: regular;
-	font-display: swap;
+font-display: swap;
 }
 
 // --------------------
@@ -92,24 +91,17 @@ a:hover {
 // --------------------
 
 .hero-image {
-    width: 80%;
+    width: 100%;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;  
 }
 
 
 // --------------------
 // BODY TEXT STYLE
 // --------------------
-main.page-content {
-	flex: 1;
-}
-
 .post-content {
 	color: $text;
-	flex: 1;
 
 	a {
 		color: $link;
@@ -194,7 +186,6 @@ main.page-content {
   .site-nav {
     background-color: $background;
     border: 1px solid transparent;
-    -moz-user-select: none;
     user-select: none;
 
     ul { padding-left: 0; }

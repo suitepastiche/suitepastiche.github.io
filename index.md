@@ -8,6 +8,6 @@ We're Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically
 
 Our next party is 16 May. [Get tickets](/tickets/)
 
-See you on the dance floor!
+See you in the dance!
 
 ![A dance party scene illustrated in cartoon style]({{ "assets/images/20260516_Website_900x1125.png" | relative_url }}){: .hero-image }
