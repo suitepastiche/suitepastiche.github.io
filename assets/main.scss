@@ -103,6 +103,12 @@ a:hover {
 .post-content {
 	color: $text;
 
+	hr {
+		border: none;
+		border-top: 1px solid rgba($text, 0.6);
+		margin: 1.5rem 0;
+	}
+
 	a {
 		color: $link;
 		text-decoration: underline;
