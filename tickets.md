@@ -11,7 +11,7 @@ We’re back on 16 May at Fringe Common Rooms for an autumnal dance under the mi
 
 [**Get tickets**](https://events.humanitix.com/suite-pastiche-may-2026/tickets?widget=popup)
 
-This time, we're thrilled to have our dear friend [Sarita](https://www.instagram.com/sarita__ryan/) join as musical host, taking us on a voyage that traverses genres and styles across the musical spectrum. For a taste of what to expect, [listen to the last party](/listen).
+This time, we're thrilled to have our dear friend [Sarita](https://www.instagram.com/sarita__ryan/) join as musical host, taking us on a voyage that traverses genres and styles across the sonic spectrum. For a taste of what to expect, [listen to the last party](/listen).
 
 As usual, our finely-tuned four-point Klipschorn sound system will be in full swing, bathing our beloved party crowd in life-affirming sound. 
 
