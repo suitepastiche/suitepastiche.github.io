@@ -5,8 +5,6 @@ permalink: /tickets/
 description: Get tickets to the next party
 ---
 
-<script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
-
 We’re back on 16 May at Fringe Common Rooms for an autumnal dance under the mirror ball 🍂
 
 [**Get tickets**](https://events.humanitix.com/suite-pastiche-may-2026/tickets?widget=popup)
@@ -42,3 +40,5 @@ To help us preserve our unique party environment, please:
 ---
 
 *Nobody should be denied the right to dance, so we keep our ticket prices affordable – but if price is a barrier to entry, get in touch.*
+
+<script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>

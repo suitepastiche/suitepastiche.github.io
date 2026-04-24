@@ -10,7 +10,7 @@ description: See photos of past parties
   {%- for img in site.data.gallery -%}
     {%- assign full = img.filename -%}
     <a class="gallery-item" href="{{ '/assets/gallery/' | append: full | relative_url }}">
-      <img src="{{ '/assets/gallery/' | append: full | relative_url }}" alt="">
+      <img src="{{ '/assets/gallery/' | append: full | relative_url }}" alt="" loading="lazy" decoding="async">
     </a>
   {%- endfor -%}
 </div>
