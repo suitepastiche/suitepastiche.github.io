@@ -5,6 +5,10 @@ permalink: /tickets/
 description: Get tickets to the next party
 ---
 
+**Sold out online!** [Check for resales](https://events.humanitix.com/suite-pastiche-may-2026/au/resale), or get down early (from 7:30pm) for door tickets.
+
+---
+
 We’re back on 16 May at Fringe Common Rooms for an autumnal dance under the mirror ball 🍂
 
 [**Get tickets**](https://events.humanitix.com/suite-pastiche-may-2026/tickets?widget=popup)

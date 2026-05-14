@@ -6,7 +6,7 @@ hide_title: true
 
 We're Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music.
 
-Our next party is 16 May. **[Get tickets](/tickets/)**
+[Our next party](/tickets) is 16 May. We've sold out online, but you can [check for resales](https://events.humanitix.com/suite-pastiche-may-2026/au/resale) or get down early (from 7:30pm) for door tickets.
 
 See you in the dance!
 
