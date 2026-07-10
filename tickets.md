@@ -23,6 +23,8 @@ See you in the dance!
 
 <br>
 
+<hr>
+
 ## Social expectations
 
 To help us preserve our unique party environment, please:
@@ -36,5 +38,7 @@ To help us preserve our unique party environment, please:
 [Read about our history and ethos](/about/)
 
 <br>
+
+<hr>
 
 *Nobody should be denied the right to dance, so we keep our ticket prices affordable – but if price is a barrier to entry, get in touch.*

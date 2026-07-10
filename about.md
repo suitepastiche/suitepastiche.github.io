@@ -25,6 +25,8 @@ We can't wait to see you at the [next party](/tickets/)!
 
 <br>
 
+<hr>
+
 ## Social expectations
 
 To help us preserve our unique party environment, please:
