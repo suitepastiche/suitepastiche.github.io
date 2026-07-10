@@ -5,4 +5,36 @@ permalink: /tickets/
 description: Get tickets to the next party
 ---
 
-Our next party is 22 August. To get tickets when they become available, [join the mailing list](https://preview.mailerlite.io/forms/2046266/179553174649046476/share){:target="_blank" rel="noopener noreferrer"}.
+<script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
+
+We're back on 22 August, 8pm – 2am at Fringe Common Rooms for a winter-warming dance under the disco ball ☃️
+
+[**Get tickets**](https://events.humanitix.com/suite-pastiche-aug-2026/tickets?widget=popup)
+
+As usual, we'll be cosily ensconced in a beautiful ballroom, surrounded by our finely tuned four-point Klipschorn sound system, moving our bodies and minds amidst the loveliest party people in the city.
+
+Our musical hosts will take us on a wide and wonderful sonic journey: think jazz, Afro, Caribbean, Latin, psychedelic, disco, electronic, and all the magic in between. For a taste of what to expect, [listen to the last party](/listen).
+
+Energy is essential for any good party, so there'll also be a vegan grazing table, a bar, and many spaces to chill out and socialise in.
+
+Tickets are limited; it's an intimate affair.
+
+See you in the dance!
+
+<br>
+
+## Social expectations
+
+To help us preserve our unique party environment, please:
+
+* **Treat your fellow guests, staff, and the equipment with love, care, and respect.** Unsafe and anti-social behaviour isn’t tolerated. If you feel uncomfortable about anything, let the venue staff know.
+
+* **Keep phones and loud conversations off the dance floor.** We want to keep it as a sacred space to physically connect with the music, yourself, and other dancers.
+
+* **Try and put aside time for the entire party,** as it's best experienced as a collective journey from start to finish. To this end, there are no pass-outs, and doors close at midnight.
+
+[Read about our history and ethos](/about/)
+
+<br>
+
+*Nobody should be denied the right to dance, so we keep our ticket prices affordable – but if price is a barrier to entry, get in touch.*
