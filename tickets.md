@@ -5,11 +5,13 @@ permalink: /tickets/
 description: Get tickets to the next party
 ---
 
-<script src="https://events.humanitix.com/scripts/widgets/popup.js" type="module"></script>
+<hr>
+
+**Sold out online! [Check for resales](https://events.humanitix.com/suite-pastiche-aug-2026/au/resale?dateId=6a4e05ca0460ffd56677c0e9), or get limited tickets on the door from 8pm.**
+
+<hr>
 
 We're back on 22 August, 8pm – 2am at Fringe Common Rooms for a winter-warming dance under the disco ball ☃️
-
-[**Get tickets**](https://events.humanitix.com/suite-pastiche-aug-2026/tickets?widget=popup)
 
 As usual, we'll be cosily ensconced in a beautiful ballroom, surrounded by our finely tuned four-point Klipschorn sound system, moving our bodies and minds amidst the loveliest party people in the city.
 
