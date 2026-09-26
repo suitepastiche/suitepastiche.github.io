@@ -10,4 +10,4 @@ Our next party is 14 November. To get tickets as soon as they're released, [join
 
 See you in the dance!
 
-![A dance party scene illustrated in cartoon style]({{ "assets/images/20260822_Website_900x1125.png" | relative_url }}){: .hero-image }
+![A dance party scene illustrated in cartoon style]({{ "assets/images/20261114_Website_900x1125.png" | relative_url }}){: .hero-image }
