@@ -10,5 +10,5 @@
 
 - key: email
   title: Email
-  encoded: "aGlAc3VpdGVwYXN0aWNoZS5jb20="
+  url: "mailto:hi@suitepastiche.com"
   external: false
