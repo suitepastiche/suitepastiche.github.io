@@ -7,8 +7,7 @@ description: See photos of past parties
 ---
 
 <div class="gallery">
-  {%- for img in site.data.gallery -%}
-    {%- assign full = img.filename -%}
+  {%- for full in site.data.gallery -%}
     <a class="gallery-item" href="{{ '/assets/gallery/' | append: full | relative_url }}">
       <img src="{{ '/assets/gallery/' | append: full | relative_url }}" alt="" loading="lazy" decoding="async">
     </a>

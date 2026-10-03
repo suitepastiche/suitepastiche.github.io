@@ -84,6 +84,18 @@ a:hover {
 	display: block;
 }
 
+.post-content p:has(> .hero-image) {
+	margin-bottom: 0;
+}
+
+.page-content:has(.hero-image) {
+	padding-bottom: 1.2rem;
+
+	.post-content {
+		text-align: center;
+	}
+}
+
 // Body text style
 .post-content {
 	color: $text;

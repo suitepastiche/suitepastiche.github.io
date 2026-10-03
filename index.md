@@ -6,7 +6,7 @@ hide_title: true
 
 We're Naarm/Melbourne's hi-fi dance party for the socially engaged and sonically curious. We exist to bring people together through music.
 
-Our next party is 14 November. **[Get tickets](/tickets)**
+**[Get tickets to our 14 November party](/tickets)**
 
 See you in the dance!
 
