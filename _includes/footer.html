@@ -1,14 +1,8 @@
-<footer class="site-footer h-card">
-
-  <a class="u-url" href="{{ '/' | relative_url }}"></a>
+<footer class="site-footer">
 
   <div class="wrapper">
 
     <div class="custom-footer">
-      {%- if site.description -%}
-        <p class="footer-tagline">{{ site.description | escape }}</p>
-      {%- endif -%}
-
       <div class="social-icons">
         {%- for item in site.data.social -%}
           {%- if item.key == "email" and item.encoded -%}

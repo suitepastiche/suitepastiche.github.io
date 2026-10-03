@@ -89,10 +89,11 @@ a:hover {
 }
 
 .page-content:has(.hero-image) {
-	padding-bottom: 1.2rem;
+	padding-bottom: 1rem;
 
 	.post-content {
 		text-align: center;
+		margin-bottom: 0; // minima gives .post-content a 30px bottom margin
 	}
 }
 
@@ -117,8 +118,7 @@ a:hover {
 	}
 }
 
-.post-title,
-.page-heading {
+.post-title {
 	color: $text;
 }
 
@@ -146,12 +146,6 @@ a:hover {
 
 .custom-footer {
 	text-align: center;
-}
-
-.footer-tagline {
-	color: $text;
-	font-size: 0.85rem;
-	margin-bottom: 0.85rem;
 }
 
 .social-icons {
