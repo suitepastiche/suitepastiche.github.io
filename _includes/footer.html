@@ -5,25 +5,35 @@
     <div class="custom-footer">
       <div class="social-icons">
         {%- for item in site.data.social -%}
-          <a
-            href="{{ item.url | escape }}"
-            title="{{ item.title | escape }}"
-            aria-label="{{ item.title | escape }}"
-            {%- if item.external -%} target="_blank" rel="noopener noreferrer"{%- endif -%}>
-            {%- case item.key -%}
-              {%- when "instagram" -%}
-                {%- include icon-instagram.html -%}
-              {%- when "mixcloud" -%}
-                {%- include icon-mixcloud.html -%}
-              {%- when "email" -%}
-                {%- include icon-email.html -%}
-            {%- endcase -%}
-          </a>
+          {%- if item.encoded -%}
+            <a href="#" data-obf="{{ item.encoded }}" title="{{ item.title | escape }}" aria-label="{{ item.title | escape }}">
+              {%- include icon-email.html -%}
+            </a>
+          {%- elsif item.url -%}
+            <a
+              href="{{ item.url | escape }}"
+              title="{{ item.title | escape }}"
+              aria-label="{{ item.title | escape }}"
+              {%- if item.external %} target="_blank" rel="noopener noreferrer"{% endif -%}>
+              {%- case item.key -%}
+                {%- when "instagram" -%}
+                  {%- include icon-instagram.html -%}
+                {%- when "mixcloud" -%}
+                  {%- include icon-mixcloud.html -%}
+              {%- endcase -%}
+            </a>
+          {%- endif -%}
         {%- endfor -%}
       </div>
 
     </div>
 
   </div>
+
+  <script>
+    document.querySelectorAll('[data-obf]').forEach(function(el){
+      el.href = 'mailto:' + atob(el.dataset.obf);
+    });
+  </script>
 
 </footer>
