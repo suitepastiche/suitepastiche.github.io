@@ -11,7 +11,7 @@ We're back for another dance on 14 November, 8pm – 2am at Fringe Common Rooms 
 
 [**Get tickets**](https://events.humanitix.com/suite-pastiche-nov-2026/tickets?widget=popup)
 
-Our spring party will bloom in a beautiful ballroom, filled with the sonics of a finely-tuned four-point Klipschorn sound system and the life-affirming energy of our beloved party community.
+As usual, we’ll gather in a beautiful ballroom, surrounded by the sonics of our finely-tuned four-point Klipschorn sound system and the life-affirming energy of our beloved party community.
 
 Our musical hosts will take us on a diverse and deep dancefloor journey: think jazz, Afro, Caribbean, Latin, psychedelic, disco, electronic, and all the magic in between. For a taste of what to expect, [listen to the last party](/listen).
 
