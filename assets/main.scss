@@ -48,10 +48,6 @@ a:hover {
 		transition: color 0.3s ease;
 		font-size: 1.75rem;
 
-		&:visited {
-			color: $text;
-		}
-
 		&:hover {
 			color: $link-hover;
 		}
@@ -65,10 +61,6 @@ a:hover {
 
 		&:not(:last-child) {
 			margin-right: 2.5rem;
-		}
-
-		&:visited {
-			color: $text;
 		}
 
 		&:hover {
@@ -93,7 +85,7 @@ a:hover {
 
 	.post-content {
 		text-align: center;
-		margin-bottom: 0; // minima gives .post-content a 30px bottom margin
+		margin-bottom: 0;
 	}
 }
 
@@ -184,12 +176,7 @@ a:hover {
 		}
 
 		.page-link {
-			color: $link;
 			padding: 0.625rem;
-
-			&:hover {
-				color: $link-hover;
-			}
 
 			&:not(:last-child) {
 				margin-right: 0;
@@ -221,7 +208,7 @@ a:hover {
 
 .gallery-item {
 	position: relative;
-	padding-top: 66.67%; /* 3:2 aspect ratio */
+	padding-top: 66.67%;
 	overflow: hidden;
 	border-radius: 0.25rem;
 }
@@ -265,7 +252,7 @@ a:hover {
 	right: 1rem;
 	background: transparent;
 	border: none;
-	color: #ffffff;
+	color: $text;
 	font-size: 2rem;
 	cursor: pointer;
 }
@@ -276,7 +263,7 @@ a:hover {
 	transform: translateY(-50%);
 	background: transparent;
 	border: none;
-	color: #ffffff;
+	color: $text;
 	font-size: 2rem;
 	cursor: pointer;
 	padding: 1rem;
