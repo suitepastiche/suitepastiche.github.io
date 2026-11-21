@@ -1,0 +1,3 @@
+# Mailing list signup form (EmailOctopus). Used by _includes/emailoctopus.html
+# and referenced from page content via site.data.emailoctopus.form_id.
+form_id: 2f865d5e-e4d4-11f1-a688-9de896f70d7a
